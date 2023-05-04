@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman';
+    background: linear-gradient(#1d3557,#ffcdb2);
+    background-image: url("pexels-kamran-gholami-3799176.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 6px black;
+}
+
+#text1{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+#text2{
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+#text3{
+    margin-top: 5px;
+    margin-bottom: 5%;
+
+}
+
+.bazzar{
+    background-color: #0d1b2a;
+    padding: 0 0 2;
+    border-radius: 6px;
+    border: 2px solid pink;
+}
+.palace{
+    background-color: #0d1b2a;
+    padding: 0 0 2;
+    border-radius: 6px;
+    border: 2px solid pink;
+}
+.museum{
+    background-color: #0d1b2a;
+    padding: 3 3 4;
+    border-radius: 6px;
+    border: 2px solid pink;
+}
+
+.tehran-section {
+    margin-top: 70px;
+}
+
+#first-img{
+ 
+    max-width: 220px;
+    height: 220px;
+    border: 6px solid pink;
+    border-radius: 10px;
+    background-image: url("bazar.jpg")
+}
+
+#second-img{
+
+    max-width: 220px;
+    height: 220px;
+    border: 6px solid pink;
+    border-radius: 10px;
+    background-image: url("golestan-palace.jpg")
+}
+
+#third-img{
+ 
+    max-width: 220px;
+    height: 220px;
+    border: 6px solid pink;
+    border-radius: 10px;
+    background-image: url("museum.jpg")
+}
+
+ 
+
+.section1{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+    padding: 10px;
+    align-items: start;
+
+   
+    
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
